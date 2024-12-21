@@ -33,11 +33,7 @@ const MyApp = ({ Component, pageProps }) => {
     }
 
     // 导入外部自定义脚本
-    if (BLOG.CRISP_WEBSITE_ID) {
-      window.$crisp = []
-      window.CRISP_WEBSITE_ID = BLOG.CRISP_WEBSITE_ID
-      loadExternalResource('https://client.crisp.chat/l.js', 'js')
-    }
+    loadExternalResource('https://plugin-code.salesmartly.com/js/project_202700_209207_1734763632.js', 'js')
     if (BLOG.CUSTOM_EXTERNAL_JS && BLOG.CUSTOM_EXTERNAL_JS.length > 0) {
       for (const url of BLOG.CUSTOM_EXTERNAL_JS) {
         loadExternalResource(url, 'js')
