@@ -88,7 +88,7 @@ const BLOG = {
 
   // 自定义外部脚本，外部样式
   CRISP_WEBSITE_ID:'955142dd-db46-4160-8ac4-60412627ebab',
-  CUSTOM_EXTERNAL_JS: [''], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
+  CUSTOM_EXTERNAL_JS: ['https://plugin-code.salesmartly.com/js/project_202700_209207_1734763632.js'], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
   CUSTOM_EXTERNAL_CSS: [''], // e.g. ['http://xx.com/style.css','http://xx.com/style.css']
 
   // 侧栏布局 是否反转(左变右,右变左) 已支持主题: hexo next medium fukasawa example
